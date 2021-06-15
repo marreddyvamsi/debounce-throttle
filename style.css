@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(179, 144, 112);
+}
+input[type="text"] {
+  margin: 0 auto;
+  padding: 0.5rem;
+  outline: none;
+}
+form {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.text{
+    margin: 1rem;
+    text-align: center;
+}
